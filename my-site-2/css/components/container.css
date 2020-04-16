@@ -1,0 +1,63 @@
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.cards {
+  padding: 64px 0px;
+    display: flex;
+	flex-wrap: wrap;
+	margin: 0px auto;
+}
+
+#founder {
+	width: 700px;
+	margin: 40px auto;
+	margin-bottom: 120px;
+	background-color: white;
+	border-radius: 4px;
+  	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  	padding: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  #founder{
+  	width: 700px;
+
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+    #founder{
+  	width: 500px;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 95%;
+  }
+    #founder{
+  	width: 95%;
+
+  }
+}
